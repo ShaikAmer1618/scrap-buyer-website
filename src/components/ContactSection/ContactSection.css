@@ -1,0 +1,187 @@
+/* ==========================================================================
+   CONTACT SECTION
+   ========================================================================== */
+.contact-section {
+  padding: 5rem 0;
+  background: transparent;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.contact-card-main {
+  background-color: #0d1527;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-xl);
+  padding: 2.25rem;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6);
+}
+
+.contact-buttons-prominent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.contact-info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 1.5rem;
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.contact-info-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  background-color: rgba(56, 189, 248, 0.12);
+  color: #38bdf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border: 1px solid rgba(56, 189, 248, 0.25);
+}
+
+.contact-info-text h4 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #64748b;
+  margin-bottom: 0.2rem;
+}
+
+.contact-info-text p, .contact-info-text a {
+  font-size: 0.975rem;
+  font-weight: 600;
+  color: #ffffff;
+  word-break: break-word;
+}
+
+.contact-info-text a:hover {
+  color: #38bdf8;
+}
+
+/* Quick Scrap Inquiry Box (Client-side WhatsApp Generator - No DB/Backend needed) */
+.inquiry-box {
+  background-color: #0d1527;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-xl);
+  padding: 2.25rem;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6);
+}
+
+.inquiry-box h3 {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 0.35rem;
+}
+
+.inquiry-box p {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+.form-label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #cbd5e1;
+  margin-bottom: 0.45rem;
+}
+
+.form-input, .form-select, .form-textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1.5px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-md);
+  font-family: inherit;
+  font-size: 0.95rem;
+  color: #ffffff;
+  background-color: #080f1e;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.form-input:focus, .form-select:focus, .form-textarea:focus {
+  outline: none;
+  border-color: #38bdf8;
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.3);
+}
+@media (max-width: 991px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 2.25rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-buttons-prominent {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 575px) {
+  .contact-section {
+    padding: 3rem 0;
+  }
+  .contact-card-main,
+  .inquiry-box {
+    padding: 1.35rem 1rem;
+    border-radius: var(--radius-lg);
+  }
+  .contact-buttons-prominent .btn {
+    width: 100%;
+    justify-content: center;
+    padding: 0.85rem 1rem;
+    font-size: 0.95rem;
+  }
+  .contact-info-item {
+    gap: 0.75rem;
+  }
+  .contact-info-icon {
+    width: 38px;
+    height: 38px;
+  }
+  .contact-info-text p,
+  .contact-info-text a {
+    font-size: 0.9rem;
+  }
+  .inquiry-box h3 {
+    font-size: 1.2rem;
+  }
+  .form-input, .form-select, .form-textarea {
+    padding: 0.65rem 0.85rem;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 360px) {
+  .contact-card-main,
+  .inquiry-box {
+    padding: 1.15rem 0.85rem;
+  }
+  .contact-info-icon {
+    width: 34px;
+    height: 34px;
+  }
+}

@@ -1,0 +1,429 @@
+/* ==========================================================================
+   FOOTER (CUTEDGE DEEP TECH STYLE - MULTI-COLUMN WITH TRUST STRIP)
+   ========================================================================== */
+.footer-main {
+  background-color: #04070e;
+  background-image: radial-gradient(circle at 50% 0%, rgba(56, 189, 248, 0.06) 0%, transparent 60%);
+  color: #cbd5e1;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+/* 1. Value Proposition Highlights Strip */
+.footer-trust-strip {
+  background: rgba(13, 21, 39, 0.7);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 2.25rem 0;
+}
+
+.footer-trust-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.75rem;
+}
+
+.footer-trust-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+}
+
+.footer-trust-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  color: #38bdf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.15);
+}
+
+.footer-trust-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.25rem;
+  letter-spacing: -0.01em;
+}
+
+.footer-trust-sub {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* 2. Main Multi-Column Content */
+.footer-content-wrap {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1.15fr 1.35fr;
+  gap: 3rem;
+  margin-bottom: 3.5rem;
+}
+
+.footer-col-brand {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 1.15rem;
+  text-decoration: none;
+}
+
+.footer-desc {
+  font-size: 0.885rem;
+  color: #94a3b8;
+  line-height: 1.65;
+  margin-bottom: 1.25rem;
+}
+
+.footer-eco-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(16, 185, 129, 0.1);
+  border: 1px solid rgba(16, 185, 129, 0.25);
+  color: #6ee7b7;
+  padding: 0.35rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+  width: fit-content;
+}
+
+.footer-cert-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer-tag-pill {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #cbd5e1;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 0.25rem 0.65rem;
+  border-radius: 6px;
+}
+
+.footer-heading {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1.35rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.footer-heading::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: linear-gradient(90deg, #38bdf8, #10b981);
+  border-radius: 2px;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: #94a3b8;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #38bdf8;
+  transform: translateX(3px);
+}
+
+.footer-link-arrow {
+  font-size: 0.85rem;
+  color: #38bdf8;
+  opacity: 0.7;
+  transition: transform 0.2s;
+}
+
+.footer-links a:hover .footer-link-arrow {
+  opacity: 1;
+  transform: translateX(2px);
+}
+
+.footer-link-num {
+  font-size: 0.725rem;
+  font-weight: 700;
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  padding: 1px 6px;
+  border-radius: 4px;
+  min-width: 22px;
+  text-align: center;
+}
+
+/* Column 4: Contact Box */
+.footer-contact-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.footer-contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+}
+
+.footer-contact-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  background: rgba(56, 189, 248, 0.1);
+  color: #38bdf8;
+  border: 1px solid rgba(56, 189, 248, 0.22);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.footer-wa-icon {
+  background: rgba(16, 185, 129, 0.12);
+  color: #10b981;
+  border-color: rgba(16, 185, 129, 0.25);
+}
+
+.footer-contact-label {
+  font-size: 0.725rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #64748b;
+  margin-bottom: 0.2rem;
+}
+
+.footer-contact-val {
+  font-size: 0.885rem;
+  color: #e2e8f0;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.footer-contact-val-link {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.2s;
+  display: inline-block;
+}
+
+.footer-contact-val-link:hover {
+  color: #38bdf8;
+}
+
+.footer-wa-val-link {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #34d399;
+  text-decoration: none;
+  transition: color 0.2s;
+  display: inline-block;
+}
+
+.footer-wa-val-link:hover {
+  color: #10b981;
+}
+
+.footer-map-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: #38bdf8;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 0.35rem;
+  transition: all 0.2s;
+}
+
+.footer-map-btn:hover {
+  color: #ffffff;
+  transform: translateX(2px);
+}
+
+/* 3. Bottom Legal & Back to Top Bar */
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.footer-copy {
+  font-size: 0.875rem;
+  color: #94a3b8;
+  margin-bottom: 0.25rem;
+}
+
+.footer-copy strong {
+  color: #ffffff;
+}
+
+.footer-subcopy {
+  font-size: 0.775rem;
+  color: #64748b;
+  margin: 0;
+}
+
+.footer-back-to-top {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #cbd5e1;
+  padding: 0.45rem 1.15rem;
+  border-radius: 9999px;
+  font-size: 0.825rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.footer-back-to-top:hover {
+  background: rgba(56, 189, 248, 0.15);
+  border-color: #38bdf8;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 0 16px rgba(56, 189, 248, 0.28);
+}
+
+.footer-top-arrow {
+  font-size: 0.95rem;
+  transition: transform 0.2s;
+}
+
+.footer-back-to-top:hover .footer-top-arrow {
+  transform: translateY(-2px);
+}
+
+/* Responsive Footer Styles */
+@media (max-width: 1024px) {
+  .footer-trust-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-trust-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2.25rem;
+  }
+  .footer-content-wrap {
+    padding-bottom: calc(4.5rem + env(safe-area-inset-bottom, 0px));
+  }
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+  }
+  .footer-back-to-top {
+    align-self: flex-start;
+  }
+}
+
+@media (max-width: 575px) {
+  .footer-trust-strip {
+    padding: 1.5rem 0;
+  }
+  .footer-content-wrap {
+    padding-top: 2.5rem;
+  }
+  .footer-grid {
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+  }
+  .footer-brand {
+    font-size: 1.15rem;
+  }
+  .footer-desc {
+    font-size: 0.85rem;
+  }
+  .footer-heading {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+  }
+  .footer-contact-item {
+    gap: 0.75rem;
+  }
+  .footer-contact-icon {
+    width: 32px;
+    height: 32px;
+  }
+  .footer-contact-val,
+  .footer-contact-val-link,
+  .footer-wa-val-link {
+    font-size: 0.875rem;
+    word-break: break-word;
+  }
+}
+
+@media (max-width: 360px) {
+  .footer-brand {
+    font-size: 1.05rem;
+  }
+  .footer-trust-title {
+    font-size: 0.9rem;
+  }
+  .footer-copy {
+    font-size: 0.825rem;
+  }
+}
